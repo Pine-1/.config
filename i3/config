@@ -31,7 +31,7 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id feh --bg-fill /home/abd/Pictures/Backgrounds/purple_city.png
 exec --no-startup-id nm-applet
-exec --no-startup-id ~/.config/polybar/polybarwait.sh
+exec --no-startup-id ~/.config/polybar/polybarstart.sh
 exec --no-startup-id flameshot
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
