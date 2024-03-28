@@ -29,7 +29,7 @@ exec --no-startup-id dex --autostart --environment i3
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec --no-startup-id feh --bg-fill /home/abd/Pictures/Backgrounds/purple_city.png
+exec --no-startup-id feh --bg-fill ~/Pictures/Backgrounds/starry-night.png
 exec --no-startup-id nm-applet
 exec --no-startup-id ~/.config/polybar/polybarstart.sh
 exec --no-startup-id flameshot
@@ -62,7 +62,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 
 # lock the screen
-bindsym $mod+shift+q exec "pkill -KILL -u abd"
+bindsym $mod+shift+q exec "pkill -KILL -u pine"
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
